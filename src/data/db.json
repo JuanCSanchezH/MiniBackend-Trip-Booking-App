@@ -1,0 +1,78 @@
+{
+   "users": [
+        {
+            "id": 1,
+            "name": "Vero",
+            "email": "kdsff@gmail.com", 
+            "password": "12345"
+        }
+    ],
+    "usersTripDetails": [
+        {
+            "id": 1,
+            "userID": 1,
+            "passengerDetails": {
+                "name": "Juan",
+                "surname": "Sánchez",
+                "title": "Bioingeniero",
+                "birthday": "11 de junio",
+                "nationality": "Colombiano"
+            },
+            "identity": {
+                "passportNumber": "3562812786",
+                "countryOfIssue": "Colombia",
+                "passportExpireDate": "junio 11 de 2024"
+
+            },
+            "contactDetails": {
+                "name": "Vero",
+                "surname": "Tangarife",
+                "title": "Periodista",
+                "email": "veroyjuancalomejor@gmail.com",
+                "phoneNumber": "3053769966"
+            }
+        }
+    ],
+    "vuelos": [
+        {
+            "id": 1,
+            "userID": 1,
+            "origen": "Ciudad de Origen",
+            "destino": "Ciudad de Destino",
+            "fecha_salida": "2023-10-10T08:00:00Z",
+            "fecha_llegada": "2023-10-10T10:30:00Z",
+            "precio": 300.00,
+            "disponibilidad": 50,
+            "asientos": {
+                "clase_economica": {
+                    "filas": 10,
+                    "asientos_por_fila": 6,
+                    "asientos_disponibles": [
+                        ["A1", "A2", "A3", "A4", "A5", "A6"],
+                        ["B1", "B2", "B3", "B4", "B5", "B6"]
+                    ]
+                }
+            }
+        }
+    ],
+    "tickets": [
+        {
+            "id": "12345",
+            "userID": 1,
+            "nombre_pasajero": "Nombre Apellido",
+            "vuelo_id": "1",
+            "fecha_compra": "2023-10-05T15:30:00Z",
+            "asiento": "A3",
+            "precio_total": 300.00
+        },
+        {
+            "id": "54321",
+            "userID": 1,
+            "nombre_pasajero": "Otro Nombre",
+            "vuelo_id": "2",
+            "fecha_compra": "2023-10-06T09:45:00Z",
+            "asiento": "B1",
+            "precio_total": 250.00
+        }
+    ]
+}
