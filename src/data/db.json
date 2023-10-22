@@ -33,12 +33,32 @@
             }
         }
     ],
-    "vuelos": [
+    "availableFlights": [
         {
             "id": 1,
-            "userID": 1,
-            "origen": "Ciudad de Origen",
-            "destino": "Ciudad de Destino",
+            "origen": "Houston (HOU)",
+            "destino": "Los Angeles (LAX)",
+            "stopLocation": "Las Vegas (LAS)",
+            "fecha_salida": "2023-10-10T08:00:00Z",
+            "stopDate": "2023-10-10T09:20:00Z",
+            "fecha_llegada": "2023-10-10T10:30:00Z",
+            "precio": 300.00,
+            "disponibilidad": 50,
+            "asientos": {
+                "clase_economica": {
+                    "filas": 10,
+                    "asientos_por_fila": 6,
+                    "asientos_disponibles": [
+                        ["A1", "A2", "A3", "A4", "A5", "A6"],
+                        ["B1", "B2", "B3", "B4", "B5", "B6"]
+                    ]
+                }
+            }
+        },
+        {
+            "id": 2,
+            "origen": "Medellín",
+            "destino": "Brasil",
             "fecha_salida": "2023-10-10T08:00:00Z",
             "fecha_llegada": "2023-10-10T10:30:00Z",
             "precio": 300.00,
